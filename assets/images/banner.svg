@@ -1,0 +1,13 @@
+<svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" width="568" height="62" viewBox="0 0 568 62">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #333;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="banner.svg" class="cls-1" d="M966.52,5798c0,9.6,36.48,30,36.48,30s-125.78-6.88-283-6.88-283,6.88-283,6.88,36.475-20.4,36.475-30-36.475-30-36.475-30,125.776,6.88,283,6.88,283-6.88,283-6.88S966.52,5788.4,966.52,5798Z" transform="translate(-436 -5767)"/>
+</svg>

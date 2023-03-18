@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* CSS Document */
+html {
+  font-size: 62.5%;
+  /* 16px * 62.5% = 10px */
+  width: 100%;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.active{
+  overflow: hidden;
+}
+body {
+  color: #333;
+  background-color: #f6f8f9;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.6em;
+  line-height: 1.5;
+  text-align: center;
+}
+.wrapper{
+  overflow: hidden;
+}
+
+h2 span {
+  font-size: 3.0rem;
+}
+
+@media (min-width: 1040px) {
+  h2 span {
+    font-size: 6rem;
+  }
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.none {
+  display: none;
+}
+
+.green {
+  color: #73c078;
+}
+
+.red {
+  color: #e5544d;
+}
+
+.red-line {
+  background: linear-gradient(transparent 70%, rgb(229, 84, 77, 0.5) 70%);
+}
+
+@media (min-width: 1040px) {
+  .br::before {
+    content: "\A";
+    white-space: pre;
+  }
+}
